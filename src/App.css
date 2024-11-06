@@ -1,0 +1,8 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden; 
+}
+.App {
+    padding-top: 80px;
+}

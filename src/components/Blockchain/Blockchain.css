@@ -1,0 +1,68 @@
+.blockchain-wrapper {
+  max-width: 80rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+
+  
+}
+.chain-grid {
+  width: 100%;
+  max-width: 1500px;
+  height: 50rem;
+  display: grid;
+  gap: 1.5rem;
+  padding: 1rem;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "hero hero hero hero aside2 aside2"
+    "hero hero hero hero aside2 aside2"
+    "hero hero hero hero aside2 aside2"
+    "hero hero hero hero aside2 aside2"
+    "aside3 aside3 aside4 aside4 aside5 aside5 ";
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #464545;
+  border-radius: 5px;
+  padding: 2rem;
+}
+.item h2 {
+  color: #EEDAEA;
+}
+.item h4 {
+  margin-bottom: 0.3rem;
+  color: #EEDAEA;
+}
+.item p {
+  text-indent: 1.5rem;
+  color: #EEDAEA;
+  text-align: justify;
+  line-height: 1.8;
+}
+.item img {
+  margin: 2rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chain-grid .item:nth-child(1) {
+  grid-area: hero;
+}
+.chain-grid .item:nth-child(2) {
+  grid-area: aside2;
+}
+
+.chain-grid .item:nth-child(3) {
+  grid-area: aside3;
+}
+.chain-grid .item:nth-child(4) {
+  grid-area: aside4;
+}
+
+.chain-grid .item:nth-child(5) {
+  grid-area: aside5;
+}

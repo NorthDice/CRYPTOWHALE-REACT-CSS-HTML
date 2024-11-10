@@ -19,7 +19,7 @@ export const wallets = [
     { 
         id:3,
         name: "TRUST WALLET", 
-        img: "./Trust_Core Logo_Blue.png",
+        img: "https://seeklogo.com/images/T/trust-wallet-token-twt-logo-5312F3331F-seeklogo.com.png",
         title: "True crypto ownership.Powerful Web3 experiences",
         description : "Unlock the power of your cryptocurrency assets and explore the world of Web3 with Trust Wallet.",
         bgimage: "https://trustwallet.com/_next/static/media/raw.16e2b8fb.svg"
@@ -35,7 +35,7 @@ export const wallets = [
     { 
         id:5,
         name: "CRYPTO.COM DEFI WALLET", 
-        img: "https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/f1/06/c5/f106c5d4-12d3-c424-a3bb-62774042f876/AppIcon-0-1x_U007emarketing-0-6-0-P3-85-220.png/1200x630wa.jpeg",
+        img: "https://cdn.brandfetch.io/idpjmprSKf/w/400/h/400/theme/dark/icon.jpeg?c=1id64Mup7ac03k1S4NH&t=1667590062853",
         title: "Your Keys,Your Crypto",
         description : "A non-custodial wallet that gives you access to a full suite of DeFi services in one place.",
         bgimage: "https://mkt-site-asset.crypto.com/assets/defi-page/defi_wallet_desktop.webp"

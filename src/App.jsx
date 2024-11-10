@@ -6,6 +6,7 @@ import Title from './components/Title/Title'
 import CryptoCurrency from './components/CryptoCurrency/CryptoCurrency'
 import Wallets from './components/Wallets/Wallets'
 import Blockchain from './components/Blockchain/Blockchain'
+import Meme from './components/Meme/Meme'
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <CryptoCurrency/>
       <Wallets/>
       <Blockchain/>
+      <Meme/>
     </div>
   )
 }

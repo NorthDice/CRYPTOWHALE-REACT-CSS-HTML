@@ -7,6 +7,7 @@ import CryptoCurrency from './components/CryptoCurrency/CryptoCurrency'
 import Wallets from './components/Wallets/Wallets'
 import Blockchain from './components/Blockchain/Blockchain'
 import Meme from './components/Meme/Meme'
+import Footer from './components/Footer/Footer'
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Wallets/>
       <Blockchain/>
       <Meme/>
+      <Footer/>
     </div>
   )
 }

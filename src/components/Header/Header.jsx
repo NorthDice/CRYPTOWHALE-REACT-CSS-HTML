@@ -1,5 +1,6 @@
 import "./Header.css"
 import { useLocation } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Header = () => {
     const location = useLocation();
@@ -18,11 +19,10 @@ const Header = () => {
       </div>    
 
       <nav className="nav-bar">
-        <a href="#current-prices" className={isActiveLink("#current-prices") ? "active" : ""}>CURRENT PRICES</a>
-        <a href="#wallets" className={isActiveLink("#wallets") ? "active" : ""}>WALLETS</a>
-        <a href="#most-popular" className={isActiveLink("#most-popular") ? "active" : ""}>MOST POPULAR</a>
-        <a href="#blockchain" className={isActiveLink("#blockchain") ? "active" : ""}>BLOCKCHAIN</a>
-        <a href="#meme" className={isActiveLink("#meme") ? "active" : ""}>MEME</a>
+        <Link to="#current-prices"spy={true} smooth={true} offset={50} duration={500} className={isActiveLink("#current-prices") ? "active" : ""}>CURRENT PRICES</Link>
+        <Link to="#wallets"spy={true} smooth={true} offset={50} duration={500} className={isActiveLink("#wallets") ? "active" : ""}>WALLETS</Link>
+        <Link to="#bockchain"spy={true} smooth={true} offset={50} duration={500} className={isActiveLink("#blockchain") ? "active" : ""}>BLOCKCHAIN</Link>
+        <Link to="#meme"spy={true} smooth={true} offset={50} duration={500} className={isActiveLink("#meme") ? "active" : ""}>MEME</Link>
       </nav>
 
       <div className="action-section">

@@ -37,7 +37,7 @@ const CryptoCurrency = () => {
  },[allCoin])
   
   return (    
-    <div className="crypto-wrapper">
+    <div className="crypto-wrapper" id="#current-prices">
       <div className="most-popular">
         <p>The most popular cryptos</p>
       </div>

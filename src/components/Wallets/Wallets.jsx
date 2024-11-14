@@ -4,7 +4,7 @@ import './Wallets.css';
 
 const Wallets = () => {
   return (
-    <div className="wallets-wrapper">
+    <div className="wallets-wrapper" id="#wallets">
       <Title title="Protect your assets with crypto WALLETS" />
       <div className="wallets-grid">
         {wallets.map((wallet) => (

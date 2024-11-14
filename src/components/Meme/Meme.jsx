@@ -5,7 +5,7 @@ import "./Meme.css"
 
 const Meme = () => {
   return (
-    <div className="meme-wrapper">
+    <div className="meme-wrapper" id="#meme">
         <Title
           title="The growth leader of the cycle MEME"
           className="title"

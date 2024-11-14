@@ -5,7 +5,7 @@ import { blockchain } from '../../assets/blockchain';
 
 const Blockchain = () => {
   return (
-    <div className="blockchain-wrapper">
+    <div className="blockchain-wrapper" id="#bockchain">
       <Title
         title="What is BLOCKCHAIN"      
       />
